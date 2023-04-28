@@ -1,10 +1,3 @@
-provider "aws" {
-
-access_key = "AKIAVTKSYXMB7BVD62U2"
-secret_key = "36QmpubBulWVjVMiVKhqisjEr+SxVQKNQi22M2jF"
-region = "ap-southeast-1"
-}
-
 
 resource "aws_security_group" "example" {
   name = "example"
